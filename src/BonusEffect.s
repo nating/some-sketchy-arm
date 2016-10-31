@@ -10,17 +10,17 @@
 
 start
 
-	BL	getPicAddr			; 	load the start address of the image in R4
-	MOV	R4, R0				;
-	BL	getPicHeight		; 	load the height of the image (rows) in R5
-	MOV	R5, R0				;
-	BL	getPicWidth			; 	load the width of the image (columns) in R6
-	MOV	R6, R0				;
+	BL	getPicAddr          ; 	load the start address of the image in R4
+	MOV	R4, R0             ;
+	BL	getPicHeight        ; 	load the height of the image (rows) in R5
+	MOV	R5, R0             ;
+	BL	getPicWidth         ; 	load the width of the image (columns) in R6
+	MOV	R6, R0             ;
 
-	LDR R9, =0xA1800000		;	int[] copyAddress;
-	MOV	R10, #0		 		;	int i = 0;
-	MOV	R8,	#0		 		;	int j = 0;
-	MOV	R3,	R6				;	int N = picture.width;
+	LDR R9, =0xA1800000    ;	int[] copyAddress;
+	MOV	R10, #0            ;	int i = 0;
+	MOV	R8,	#0             ;	int j = 0;
+	MOV	R3,	R6             ;	int N = picture.width;
 							;
 copyForLoopPixelj			;	
 	CMP	R8,	R5				;	while(j<pictureHeight)
