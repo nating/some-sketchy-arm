@@ -1,6 +1,6 @@
 	PRESERVE8
 
-	AREA	BonusEffect, CODE, READONLY
+	AREA	Sketch, CODE, READONLY
 	IMPORT	main
 	IMPORT	getPicAddr
 	IMPORT	putPic

@@ -46,7 +46,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\</OutputDirectory>
-          <OutputName>BonusEffect</OutputName>
+          <OutputName>Sketch</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -401,7 +401,7 @@
             <TextAddressRange>0x00000000</TextAddressRange>
             <DataAddressRange>0x40000000</DataAddressRange>
             <pXoBase></pXoBase>
-            <ScatterFile>BonusEffect.sct</ScatterFile>
+            <ScatterFile>Sketch.sct</ScatterFile>
             <IncludeLibs></IncludeLibs>
             <IncludeLibsPath></IncludeLibsPath>
             <Misc></Misc>
@@ -490,9 +490,9 @@
           <GroupName>Application Code</GroupName>
           <Files>
             <File>
-              <FileName>BonusEffect.s</FileName>
+              <FileName>Sketch.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\BonusEffect.s</FilePath>
+              <FilePath>.\Sketch.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -537,7 +537,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\</OutputDirectory>
-          <OutputName>BonusEffect</OutputName>
+          <OutputName>Sketch</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -892,7 +892,7 @@
             <TextAddressRange>0x00000000</TextAddressRange>
             <DataAddressRange>0x40000000</DataAddressRange>
             <pXoBase></pXoBase>
-            <ScatterFile>BonusEffect.sct</ScatterFile>
+            <ScatterFile>Sketch.sct</ScatterFile>
             <IncludeLibs></IncludeLibs>
             <IncludeLibsPath></IncludeLibsPath>
             <Misc></Misc>
@@ -981,9 +981,9 @@
           <GroupName>Application Code</GroupName>
           <Files>
             <File>
-              <FileName>BonusEffect.s</FileName>
+              <FileName>Sketch.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\BonusEffect.s</FilePath>
+              <FilePath>.\Sketch.s</FilePath>
             </File>
           </Files>
         </Group>
