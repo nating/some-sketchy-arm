@@ -7,7 +7,7 @@ This program takes a 2D array of pixel values stored in memory that represent an
 (GIF of sketching to be inserted here)
 
 ## Motivation 
-In our first year in college we were given an ARM assembly image manipulation assignment. The first two parts of the assignment were to convert an image to Greyscale and to add a Motion-Blur effect to an image. For the third part of the assignment we were tasked to implement our own effect on the image.  
+In our first year in college we were given an ARM assembly image manipulation assignment. The first two parts of the assignment were to change the Brightness and Contrast of an image and to add a Motion-Blur effect to an image. For the third part of the assignment we were tasked to implement our own effect on the image.  
 
   It struck me that all the effects that the class were implementing were static, and I decided I would like to implement a more dynamic manipulation of the image. All around the lab, every image was being printed from left to right row by row on the LCDs. I thought it would be more interesting to print pixels on the LCD in a different order.  
   
