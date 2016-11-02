@@ -16,7 +16,7 @@ In our first year in college we were given an ARM assembly image manipulation as
   There are algorithms already established on the internet for most effects that might pop into people's mind for part three of the assignment, and while I was interested in trying to implement edge-detection, I also wanted to come up with an algorithm of my own to manipulate the image. So I came up with this algorithm to manipulate the order in which the pixels from the edges inside the image are printed on the LCD.
 
 ## Technical details
-Each pixel is a 32bit RGB value stored contigously in memory.
+Each pixel is a 32bit RGB value stored contiguously in memory.
 
 ## The Algorithm
 Another section in memory is allocated so that the program can make a copy of the image. 
