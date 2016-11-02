@@ -8,6 +8,9 @@ Here is a GIF of a snippet of the Sketching.
 
 ![sketch-lapse-1](Images/sketch-lapse-1.gif)
 
+
+![SketchLapseSmall](Images/SketchLapseSmall.gif)
+
 ## Motivation 
 In our first year in college we were given an ARM assembly image manipulation assignment. The first two parts of the assignment were to change the Brightness and Contrast of an image and to add a Motion-Blur effect to an image. For the third part of the assignment we were tasked to implement our own effect on the image.  
 
