@@ -4,8 +4,6 @@ An ARM assembly language program to take an image and "sketch" it on an LCD in t
 ## Overview
 This program takes a 2D array of pixel values stored in memory that represent an image. The program performs edge detection on the image, and prints a blank canvas to the LCD before printing the pixels of the edges in a human like fashion.
 
-Here is a GIF of a snippet of the Sketching.
-
 ![sketch-lapse-2](Images/sketch-lapse-2.gif)
 
 ## Motivation 
