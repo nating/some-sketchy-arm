@@ -1,1 +1,2 @@
 *.rb linguist-language=Assembly
+*.c linguist-vendored=true
