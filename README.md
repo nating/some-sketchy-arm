@@ -18,3 +18,5 @@ Each pixel is a 32bit RGB value stored contiguously in memory.
 
 ## The Algorithm
 Another section in memory is allocated so that the program can make a copy of the image. 
+
+< More on the algorithm to be written when time available >
